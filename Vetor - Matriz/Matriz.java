@@ -4,7 +4,7 @@ public class Matriz {
     int n; 
     Scanner s = new Scanner (System.in);
     n = s.nextInt();
-    int[][] mat = new int [n][3];
+    int[][] mat = new int [n][3]; //Dinâmico
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < 3; j++) {
